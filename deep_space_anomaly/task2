@@ -1,0 +1,12 @@
+# GitHub Repository Finalization
+
+## Tasks
+- [x] Create implementation plan and get approval
+- [x] Add GPL v3.0 LICENSE file
+- [x] Create professional [.gitignore](file:///c:/Users/prati/.gemini/antigravity/scratch/deep_space_anomaly/.gitignore)
+- [x] Update [requirements.txt](file:///c:/Users/prati/.gemini/antigravity/scratch/deep_space_anomaly/requirements.txt) with compatible installed versions
+- [x] Add branding headers to all [.py](file:///c:/Users/prati/.gemini/antigravity/scratch/deep_space_anomaly/run_project.py) files
+- [x] Audit & fix all hardcoded/absolute paths in source files
+- [x] Update [run_project.py](file:///c:/Users/prati/.gemini/antigravity/scratch/deep_space_anomaly/run_project.py) for clone-ability (model check, `final_report.txt`)
+- [x] Create professional [README.md](file:///c:/Users/prati/.gemini/antigravity/scratch/deep_space_anomaly/README.md)
+- [x] Verify the full pipeline runs cleanly from scratch

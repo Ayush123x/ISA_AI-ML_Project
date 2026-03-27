@@ -1,0 +1,12 @@
+ISW - SPACEX ANOMALY DETECTION SYSTEM FINAL REPORT
+==================================================
+Pipeline Executed Successfully.
+
+Output Files Generated:
+- data/processed/test_predictions.csv
+- data/processed/decision_log.csv
+- data/processed/rul_predictions.csv
+- reports/figures/confusion_matrix.png
+
+Launch the Dashboard to view interactive results:
+  streamlit run dashboard/app.py
