@@ -1,4 +1,11 @@
 # SpaceX Starlink Satellite Mission Control 🛰️
+
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Models-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Review%20Ready-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-GPL--3.0-red?style=for-the-badge)
+
 **Real-Time Orbital Anomaly Detection & Autonomous Decision Support System**
 
 ---
@@ -7,6 +14,43 @@
 **Author:** Ayush Pratik
 **Status:** Review-Ready 
 **License:** GNU GPL v3.0
+
+---
+## 🔎 The Mission
+Managing a massive Low Earth Orbit (LEO) constellation of **902 satellites** requires split-second precision. Manual monitoring of orbital decay and telemetry deviations is mathematically impossible at scale. This system analyzes real SpaceX Starlink data to detect orbital deviations and predict Remaining Useful Life (RUL) using LEO physics simulations.
+
+## 💡 The Solution
+Sentinel introduces a **High-Stakes AI Decision Engine** that autonomously flags orbital anomalies and outputs actionable fleet commands:
+
+* 🔹 **Anomaly Detection** → Detects deviations using Isolation Forest, SVM, and Deep Autoencoders.
+* 🔹 **RUL Prediction** → Forecasts satellite lifespan using LSTM-based decay modeling.
+* 🔹 **Autonomous Logic** → Recommends specific telemetry commands (e.g., *Monitor, Orbit Correction, Emergency Deorbit*).
+
+---
+
+## 🔥 Autonomous Decision Matrix
+To ensure fleet safety, the Decision Engine utilizes a composite risk scoring system:
+
+| Risk Level | Trigger Condition | Status | Autonomous Fleet Command |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | Stable Orbit & Nominal Telemetry | **Nominal** | `Monitor` |
+| **Level 2** | Altitude Drift / Minor Decay | **Warning** | `Orbit Correction Burn` |
+| **Level 3** | Critical RUL / Severe Deviation | **Critical** | `Emergency Deorbit` |
+
+---
+
+## 🏗 System Architecture
+The platform is built on a modular, OS-agnostic architecture designed to manage the full lifecycle of an orbital event.
+
+`Raw Telemetry` ➡️ `Data Preprocessing` ➡️ `ML Pipelines (Anomaly/RUL)` ➡️ `Decision Engine` ➡️ `Streamlit Dashboard`
+
+---
+
+## ⚙️ Tech Stack
+* **Language:** Python 3.12
+* **Machine Learning:** TensorFlow/Keras, Scikit-Learn
+* **Visualization:** Streamlit, Plotly (Interactive Heatmaps)
+* **Logic:** LEO Physics Simulations & Autonomous Decision Engine
 
 ---
 
